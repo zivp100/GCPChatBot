@@ -1,0 +1,9 @@
+{
+  "id": "92e2e45d-88b3-473b-9f19-185020e3a6e1",
+  "name": "SbDStatus",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

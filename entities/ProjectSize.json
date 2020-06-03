@@ -1,0 +1,9 @@
+{
+  "id": "346437b0-00a8-43c9-9b9d-34c2afd5c478",
+  "name": "ProjectSize",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

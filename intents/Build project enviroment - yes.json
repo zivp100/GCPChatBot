@@ -1,0 +1,36 @@
+{
+  "id": "690b736f-5446-4cba-902f-09236cbfffab",
+  "parentId": "24d89122-68f1-4831-9aac-827d55c768bc",
+  "rootParentId": "24d89122-68f1-4831-9aac-827d55c768bc",
+  "name": "Build project enviroment - yes",
+  "auto": true,
+  "contexts": [
+    "Buildprojectenviroment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Buildprojectenviroment.Buildprojectenviroment-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "That\u0027s great. A request will be send to the team and your project will be created shortly. Thank you and Goodbye."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

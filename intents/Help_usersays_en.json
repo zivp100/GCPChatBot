@@ -1,0 +1,62 @@
+[
+  {
+    "id": "49e2c98b-1e5a-40c0-9d08-c7d94353a122",
+    "data": [
+      {
+        "text": "Support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee325cb7-5157-43ef-a54e-8c6f1d051c83",
+    "data": [
+      {
+        "text": "Help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc36039a-1bfe-4659-b61e-550f9e24c3f4",
+    "data": [
+      {
+        "text": "Assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb9389c9-ccfb-4fc6-b1bf-5cdd63c1b87c",
+    "data": [
+      {
+        "text": "Who can I contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "e0c4a84c-acf1-41ba-8343-5e2621505e25",
+    "data": [
+      {
+        "text": "Contact",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

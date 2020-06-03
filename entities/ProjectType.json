@@ -1,0 +1,9 @@
+{
+  "id": "32fb853c-7b80-4505-ae6e-7f831225c150",
+  "name": "ProjectType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ecd82dbf-a7a5-49bd-92b9-c54f07d73108",
+  "parentId": "24d89122-68f1-4831-9aac-827d55c768bc",
+  "rootParentId": "24d89122-68f1-4831-9aac-827d55c768bc",
+  "name": "Build project enviroment - no",
+  "auto": true,
+  "contexts": [
+    "Buildprojectenviroment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Buildprojectenviroment.Buildprojectenviroment-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

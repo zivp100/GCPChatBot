@@ -1,0 +1,164 @@
+{
+  "id": "24d89122-68f1-4831-9aac-827d55c768bc",
+  "name": "Build project enviroment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Buildprojectenviroment-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9b478f53-a662-40d1-9968-10f86b966cd4",
+          "required": true,
+          "dataType": "@ProjectName",
+          "name": "projectname",
+          "value": "$projectname",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the project name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "252e9deb-f8c8-4524-976e-7e1350ed8aa3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "Goal",
+          "value": "$Goal",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide a high level description of your cloud project"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a1d02b29-65ac-45c8-9109-92f5a792669d",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "CostCenter",
+          "value": "$CostCenter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What cost center will this be charged to?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "fdf3c57b-e65d-4417-94a8-28baa6c39aa6",
+          "required": true,
+          "dataType": "@sys.person",
+          "name": "TechArchName",
+          "value": "$TechArchName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who is the technical architect assigned to the project?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "966e79b0-5b5f-4cb4-8b74-ae6376d63808",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "ProjectSize",
+          "value": "$ProjectSize",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How would you categorize the size of your project  ( S / M / L)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1e7c803d-b7bf-4fdf-87a4-92bad343630c",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "ProjectType",
+          "value": "$ProjectType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Type of Cloud Project  ( K8S - cloud native / IaaS - Custom Solution / Other)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "47af48c7-3dfe-4316-9e6e-74e362567966",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "SbDStatus",
+          "value": "\u0026SbDStatus",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the status of your SbD submission (Not started, Submitted, Approved)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I understand you want a new GCP project  for the $ProjectName  project with the goals of $Goal and charges will go to CostCenter#$CostCenter. Is that right?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

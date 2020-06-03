@@ -1,0 +1,9 @@
+{
+  "id": "f7c5a8d7-005c-4bd3-a236-74c5f9bb1eb8",
+  "name": "Goal",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

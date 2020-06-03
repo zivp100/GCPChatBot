@@ -1,0 +1,79 @@
+[
+  {
+    "id": "bd12681b-3b25-4983-a62f-2fda6d275181",
+    "data": [
+      {
+        "text": "First",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " step",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8a8f19f5-f2d9-4640-9f91-3663c0d6e4ad",
+    "data": [
+      {
+        "text": "Start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8fdf0593-c6fe-4266-8f08-5495e4333e5c",
+    "data": [
+      {
+        "text": "Access to the cloud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "96fdc2c8-f8cb-494f-9bcf-f7b01d15a2d6",
+    "data": [
+      {
+        "text": "Access to GCP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fd672837-f75c-4f7e-8b3c-f24c981320df",
+    "data": [
+      {
+        "text": "I need a playground",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18fc8145-2d21-46d2-a90d-87692994114d",
+    "data": [
+      {
+        "text": "How do I start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

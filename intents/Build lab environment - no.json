@@ -1,0 +1,37 @@
+{
+  "id": "cc8bbd9d-8ba8-4c87-a977-e58879f3af98",
+  "parentId": "b5f70f4b-c140-42d2-bbc5-a893700defe4",
+  "rootParentId": "b5f70f4b-c140-42d2-bbc5-a893700defe4",
+  "name": "Build lab environment - no",
+  "auto": true,
+  "contexts": [
+    "lab-followup",
+    "Buildlabenvironment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Buildlabenvironment.Buildlabenvironment-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Sorry for misunderstanding. Please tell me once again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

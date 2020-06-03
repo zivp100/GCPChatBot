@@ -1,0 +1,31 @@
+{
+  "id": "88dc98cf-f8be-481a-8503-3a319ca7eca8",
+  "name": "Get Started",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "To get started and with Google Cloud Platform (GCP) and learn how to use it each team member has 300$ of credits. Just go to https://console.cloud.google.com/ and get going. Good luck!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "56d82084-acfe-4307-b156-d758bb6f75c7",
+  "name": "TechArchName",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

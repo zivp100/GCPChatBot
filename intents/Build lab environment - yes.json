@@ -1,0 +1,37 @@
+{
+  "id": "83c0e440-99d6-4dcc-8d75-42b854e3feb6",
+  "parentId": "b5f70f4b-c140-42d2-bbc5-a893700defe4",
+  "rootParentId": "b5f70f4b-c140-42d2-bbc5-a893700defe4",
+  "name": "Build lab environment - yes",
+  "auto": true,
+  "contexts": [
+    "lab-followup",
+    "Buildlabenvironment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Buildlabenvironment.Buildlabenvironment-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "That\u0027s great. A request will be send to the team and your environment will be created shortly. Thank you and Goodbye."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

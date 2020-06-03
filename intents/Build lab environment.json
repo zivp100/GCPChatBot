@@ -1,0 +1,134 @@
+{
+  "id": "b5f70f4b-c140-42d2-bbc5-a893700defe4",
+  "name": "Build lab environment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetDetails",
+      "affectedContexts": [
+        {
+          "name": "lab-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Buildlabenvironment-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7ae23913-ac6d-4caf-9998-c6ba0dab0c02",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "ProjectName",
+          "value": "$ProjectName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure, I can help with setting up a lab or PoC environment for you but I\u0027ll need some more details first. What is your project name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e4d00354-2056-4195-82a0-d34505812fd3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "Goal",
+          "value": "$Goal",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the purpose of the lab?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3a9337e6-f2ea-40f5-baee-beea1e67cb60",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "Costcenter",
+          "value": "$CostCenter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which cost Centre will pay for this enviroment?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "18c8e86d-da9d-4ca0-b198-5bdaadf19715",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "PMorTM",
+          "value": "$Contact",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For tracking purposes, please list Project Manager and/or Team Lead names"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9941942f-4581-43f8-b5c8-e13fa494d610",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "Diagram",
+          "value": "$Diagram",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you have an Architectural Design to aid in preparing your project?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I understand you want a lab / PoC environment for the $ProjectName  project with the goals of $Goal and charges will go to CostCenter#$CostCenter. Is that right?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

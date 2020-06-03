@@ -1,0 +1,75 @@
+[
+  {
+    "id": "08140ee2-1b90-4f5d-8f82-76ade5bc5815",
+    "data": [
+      {
+        "text": "Project",
+        "alias": "projectname",
+        "meta": "@ProjectName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4501b83b-172f-44ea-93d6-d205d89446e1",
+    "data": [
+      {
+        "text": "I\u0027l like",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to get a ",
+        "userDefined": false
+      },
+      {
+        "text": "project",
+        "alias": "projectname",
+        "meta": "@ProjectName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e78c9b32-1a1d-4436-bb15-937347ddcb3a",
+    "data": [
+      {
+        "text": "Create GCP ",
+        "userDefined": false
+      },
+      {
+        "text": "project",
+        "alias": "projectname",
+        "meta": "@ProjectName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "405a88ee-8c59-448a-b2c3-2059fd2648b0",
+    "data": [
+      {
+        "text": "Create ",
+        "userDefined": false
+      },
+      {
+        "text": "project",
+        "alias": "projectname",
+        "meta": "@ProjectName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
